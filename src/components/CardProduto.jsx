@@ -45,7 +45,7 @@ export function CardProduto({
         $adicionado={adicionado}
         onClick={onAdicionarAoCarrinho}
       >
-        Adicionar ao carrinho
+        {adicionado ? 'Adicionado' : 'Adicionar ao carrinho'}
       </CardProdutoBotaoCarrinho>
     </CardProdutoContainer>
   );
