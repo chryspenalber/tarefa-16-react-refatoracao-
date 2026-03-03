@@ -30,12 +30,21 @@ const CardProdutoBotaoCarrinho = styled.button`
   color: #ffffff;
 `;
 
-export function CardProduto({ nome, preco, adicionado = false }) {
+export function CardProduto({
+  nome,
+  preco,
+  adicionado = false,
+  onAdicionarAoCarrinho,
+}) {
   return (
     <CardProdutoContainer>
       <CardProdutoNome>{nome}</CardProdutoNome>
       <CardProdutoPreco>R$ {preco.toFixed(2)}</CardProdutoPreco>
-      <CardProdutoBotaoCarrinho type="button" $adicionado={adicionado}>
+      <CardProdutoBotaoCarrinho
+        type="button"
+        $adicionado={adicionado}
+        onClick={onAdicionarAoCarrinho}
+      >
         Adicionar ao carrinho
       </CardProdutoBotaoCarrinho>
     </CardProdutoContainer>

@@ -1,6 +1,6 @@
 # Catálogo de Produtos em React
 
-Aplicação React simples que exibe um componente `CardProduto` com dados estáticos.
+Aplicação React simples que exibe um componente `CardProduto` que altera ao clicar em "Adicionar ao Carrinho".
 
 ## Tecnologias utilizadas
 
@@ -23,14 +23,6 @@ Aplicação React simples que exibe um componente `CardProduto` com dados estát
 
 - Os estilos globais e de layout ficam em `src/estilos.js`.
 - Os estilos específicos do `CardProduto` ficam no próprio componente em `src/components/CardProduto.jsx` usando `styled-components` com template literals.
-
-## Dados estáticos
-
-No `App`, o produto é definido estaticamente:
-
-- `nome: 'Headset Gamer XYZ'`
-- `preco: 249.9`
-- `adicionado: true`
 
 ## Como executar o projeto
 
