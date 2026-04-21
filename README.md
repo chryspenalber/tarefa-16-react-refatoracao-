@@ -4,7 +4,7 @@
 <a id="portugues"></a>
 ## Versão em Português
 
-# Catálogo de Produtos — React + CSS-in-JS
+# Card de Produto — React + CSS-in-JS
 **Projeto desenvolvido por Chrys Penalber**
 
 Este repositório contém uma aplicação demonstrativa em **React** que exibe um componente de cartão de produto (`CardProduto`) estilizado com CSS-in-JS (via `styled-components` ou abordagem similar em `src/estilos.js`). O objetivo é apresentar conceitos de componentes, props e estilização dinâmica em React.
@@ -94,7 +94,7 @@ npm run dev
 <a id="english"></a>
 ## English Version
 
-# Product Catalog — React + CSS-in-JS
+# Product Card — React + CSS-in-JS
 **Project developed by Chrys Penalber**
 
 This repository contains a small React demo that renders a `CardProduto` (product card) component styled with CSS-in-JS (via `styled-components` or a similar approach in `src/estilos.js`). The goal is to demonstrate component composition, prop-driven styling, and simple interactivity.
